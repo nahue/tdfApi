@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b61773b-a397-452d-879f-15495dac40ed" name="Default" comment="">
+    <list default="true" id="4b61773b-a397-452d-879f-15495dac40ed" name="Default" comment="primer alpha test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/.gitignore" afterPath="$PROJECT_DIR$/vendor/laravel/framework/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/.travis.yml" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/App.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/App.php" />
@@ -9,7 +10,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Connectors/BeanstalkdConnector.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Connectors/BeanstalkdConnector.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Jobs/BeanstalkdJob.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Jobs/BeanstalkdJob.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/BeanstalkdQueue.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/BeanstalkdQueue.php" />
@@ -86,13 +86,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/phpunit.xml" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/phpunit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/plain.provider.stub" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/plain.provider.stub" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/provider.stub" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/provider.stub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tdfApi.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="app/_ide_helpers.php" />
-    <file path="/Dummy.txt" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378731312620" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378732256734" ignored="false" />
     <file path="/dummy.txt" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378556788958" ignored="false" />
     <file path="/2013_09_07_122711_create_categorias_table.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378556906470" ignored="false" />
     <file path="/2013_09_07_122727_create_fotos_table.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378559063650" ignored="false" />
@@ -153,10 +152,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filters.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="filters.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/filters.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="743" selection-end="743" vertical-scroll-proportion="0.275">
+            <state line="20" column="5" selection-start="758" selection-end="758" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="9" selection-start="69" selection-end="69" vertical-scroll-proportion="0.09615385">
               <folding />
             </state>
           </provider>
@@ -194,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/database/seeds/CategoriasTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2013_09_07_122727_create_fotos_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2013_09_07_140214_create_fotos_table.php" />
         <option value="$PROJECT_DIR$/app/models/Foto.php" />
@@ -210,13 +217,14 @@
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/app/filters.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
-    <option name="y" value="58" />
+    <option name="x" value="300" />
+    <option name="y" value="74" />
     <option name="width" value="1171" />
     <option name="height" value="772" />
   </component>
@@ -280,38 +288,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -368,13 +344,18 @@
       <created>1378699494659</created>
       <updated>1378699494659</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="primer alpha test">
+      <created>1378732098955</created>
+      <updated>1378732098955</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="58" width="1171" height="772" extended-state="0" />
+    <frame x="300" y="74" width="1171" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -389,7 +370,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -461,11 +441,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2013_09_09_034149_add_descripcion_to_fotos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/FotosTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="79" selection-start="1365" selection-end="1365" vertical-scroll-proportion="-21.25" />
@@ -552,7 +527,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="743" selection-end="743" vertical-scroll-proportion="0.275">
+        <state line="20" column="5" selection-start="758" selection-end="758" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="9" selection-start="69" selection-end="69" vertical-scroll-proportion="0.09615385">
           <folding />
         </state>
       </provider>

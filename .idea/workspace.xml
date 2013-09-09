@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b61773b-a397-452d-879f-15495dac40ed" name="Default" comment="primer alpha test">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/production.sqlite" afterPath="$PROJECT_DIR$/app/database/production.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/CategoriasFotosController.php" afterPath="$PROJECT_DIR$/app/controllers/CategoriasFotosController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
     </list>
     <ignored path="tdfApi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,6 +23,7 @@
     <file path="/routes.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378700797844" ignored="false" />
     <file path="/CategoriasFotosController.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378750481725" ignored="false" />
     <file path="/.gitignore" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378732643049" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378751221404" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="3" selection-start="474" selection-end="474" vertical-scroll-proportion="-10.0">
+            <state line="19" column="39" selection-start="597" selection-end="597" vertical-scroll-proportion="-11.875">
               <folding>
                 <element signature="e#7#392#0" expanded="true" />
               </folding>
@@ -64,19 +63,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+      <file leaf-file-name="CategoriasFotosController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/CategoriasFotosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="-10.0">
+            <state line="19" column="1" selection-start="330" selection-end="330" vertical-scroll-proportion="-11.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoriasFotosController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/CategoriasFotosController.php">
+      <file leaf-file-name="filters.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/filters.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="1" selection-start="330" selection-end="330" vertical-scroll-proportion="0.475">
+            <state line="15" column="4" selection-start="451" selection-end="451" vertical-scroll-proportion="0.15332198">
               <folding />
             </state>
           </provider>
@@ -125,11 +124,11 @@
         <option value="$PROJECT_DIR$/app/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2013_09_09_040010_create_users_table.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/filters.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/app/controllers/CategoriasFotosController.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/filters.php" />
       </list>
     </option>
   </component>
@@ -448,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/filters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="2" selection-start="819" selection-end="819" vertical-scroll-proportion="0.51107323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/UserTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="55" selection-start="230" selection-end="243" vertical-scroll-proportion="-6.25">
@@ -469,25 +461,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/CategoriasFotosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="330" selection-end="330" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="474" selection-end="474" vertical-scroll-proportion="-10.0">
+        <state line="19" column="39" selection-start="597" selection-end="597" vertical-scroll-proportion="-11.875">
           <folding>
             <element signature="e#7#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+    <entry file="file://$PROJECT_DIR$/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/CategoriasFotosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="330" selection-end="330" vertical-scroll-proportion="0.475">
+        <state line="15" column="4" selection-start="451" selection-end="451" vertical-scroll-proportion="0.15332198">
           <folding />
         </state>
       </provider>

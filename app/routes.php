@@ -16,7 +16,8 @@ Route::filter('auth.basic', function()
     return Auth::basic("username");
 });
 
-Route::group(array('prefix' => 'api/v1', 'before' => 'auth.basic'), function() {
+#Route::group(array('prefix' => 'api/v1', 'before' => 'auth.basic'), function() {
+Route::group(array('prefix' => 'api/v1'), function() {
 
     Route::resource('fotos', 'FotosController');
 

@@ -13,18 +13,16 @@
 
 App::before(function($request)
 {
-    if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
-        header('Access-Control-Allow-Origin: *');
-        header('Access-Control-Allow-Headers: X-Requested-With, Origin, X-Csrftoken, Content-Type, Accept, Authorization');
-        header('Access-Control-Request-Method:POST, PUT, DELETE');
-        exit;
-    }
+    
 });
 
 
 App::after(function($request, $response)
 {
-	//
+    $response->headers->set('Access-Control-Allow-Origin', 'http://localhost:3333');
+    $response->headers->set('Access-Control-Allow-Credentials', 'true');
+    $response->headers->set('Access-Control-Allow-Headers', 'Authorization, X-Requested-With, Origin, Accept');
+    $response->headers->set('Access-Control-Request-Method', 'GET, POST, PUT, DELETE, OPTIONS');
 });
 
 /*

@@ -135,7 +135,7 @@ class DB extends Illuminate\Database\Connection {}
  * @method	static	void	morphOne(string  $related, string  $name, string  $foreignKey)	Define a polymorphic one-to-one relationship.
  * @method	static	void	belongsTo(string  $related, string  $foreignKey)	Define an inverse one-to-one or many relationship.
  * @method	static	void	morphTo(string  $name)	Define an polymorphic, inverse one-to-one or many relationship.
- * @method	static	void	hasMany(string  $related, string  $foreignKey)	Define a one-to-many relationship.
+ * @method	static	void	hasMany(string  $related, string  $foreignKey = null)	Define a one-to-many relationship.
  * @method	static	void	morphMany(string  $related, string  $name, string  $foreignKey)	Define a polymorphic one-to-many relationship.
  * @method	static	void	belongsToMany(string  $related, string  $table, string  $foreignKey, string  $otherKey)	Define a many-to-many relationship.
  * @method	static	string	joiningTable(string  $related)	Get the joining table name for a many-to-many relation.

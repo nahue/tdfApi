@@ -11,7 +11,20 @@
 |
 */
 
-Route::get('/', function()
+
+Route::filter('auth.basic', function()
 {
-	return View::make('hello');
+    return Auth::basic("username");
 });
+
+Route::group(array('prefix' => 'api/v1', 'before' => 'auth.basic'), function() {
+
+    Route::resource('fotos', 'FotosController');
+
+    Route::resource('categorias', 'CategoriaController');
+
+    Route::resource('categorias.fotos', 'CategoriasFotosController');
+
+});
+
+

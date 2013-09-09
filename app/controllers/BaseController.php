@@ -15,4 +15,13 @@ class BaseController extends Controller {
 		}
 	}
 
+    public function __construct()
+    {
+        $this->afterFilter(function($response)
+        {
+            $response->headers->set('Access-Control-Allow-Origin', '*');
+            return $response;
+        });
+    }
+
 }

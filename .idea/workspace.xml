@@ -2,272 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b61773b-a397-452d-879f-15495dac40ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/tests/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/docs/01-Introduction.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/docs/02-Factories.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/docs/03-PHPUnit-Wrappers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/docs/04-Controller-Helpers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/docs/05-Model-Helpers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2013_09_07_140214_create_fotos_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2013_09_07_140513_create_categoria_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2013_09_09_034149_add_descripcion_to_fotos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2013_09_09_040010_create_users_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Logger/AbstractLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Logger/AbstractLoggerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Loader/ArrayLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Loader/ArrayLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/src/Way/Tests/Assert.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Autoloader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/AutoloaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/autoloader/Mustache/Bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/BaseGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Functional/CallTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Loader/CascadingLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Loader/CascadingLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Categoria.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/CategoriaController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/CategoriaTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/CategoriasFotosController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/child_context/ChildContext.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/ClosureQuirksTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/comments/Comments.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Compiler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/CompilerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Context.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/ContextTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/ControllerGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ControllerGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/commands/ControllerGeneratorCommandTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/ControllerGeneratorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/src/Way/Tests/ControllerHelpers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/src/Way/Tests/DataStore.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/tests/Way/Tests/DataStoreTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/delimiters/Delimiters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/dot_notation/DotNotation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/double_section/DoubleSection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Engine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/EngineTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/escaped/Escaped.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Functional/ExamplesTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/src/Way/Tests/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/tests/Way/Tests/FactoryTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Loader/FilesystemLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Loader/FilesystemLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/FiltersTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/autoloader/Mustache/Foo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/FormDumperCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/FormDumperGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/FormDumperGeneratorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Foto.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/FotosController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/FotosTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/Generator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/GeneratorsServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/grand_parent_context/GrandParentContext.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/HelperCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/HelperCollectionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/HigherOrderSectionsTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Functional/HigherOrderSectionsTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/i18n/I18n.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/implicit_iterator/ImplicitIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Loader/InlineLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Loader/InlineLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Exception/InvalidArgumentException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/inverted_double_section/InvertedDoubleSection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/inverted_section/InvertedSection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/LambdaHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/LambdaHelperTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Loader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Logger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Exception/LogicException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/MigrationGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/MigrationGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/ModelGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ModelGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/commands/ModelGeneratorCommandTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/ModelGeneratorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/src/Way/Tests/ModelHelpers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Functional/MustacheInjectionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/MustacheSpecTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Functional/MustacheSpecTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Loader/MutableLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/autoloader/NonMustacheClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Functional/ObjectSectionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/ParserTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/PartialLambdaIndentTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/partials/Partials.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/PivotGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/recursive_partials/RecursivePartials.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/ResourceGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ResourceGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Exception/RuntimeException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/ScaffoldGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ScaffoldGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/commands/ScafoldGeneratorCommandTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/section_iterator_objects/SectionIteratorObjects.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/section_magic_objects/SectionMagicObjects.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/section_objects/SectionObjects.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/sections/Sections.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/sections_nested/SectionsNested.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/SeedGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/SeedGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/src/Way/Tests/Should.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/simple/Simple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Logger/StreamLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Logger/StreamLoggerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/StrictCallablesTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Loader/StringLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Loader/StringLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Exception/SyntaxException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Exception/SyntaxExceptionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/TemplateTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/src/Way/Tests/TestFacade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/TestGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/TestGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Tokenizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/TokenizerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/utf8/UTF8.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/utf8_unescaped/UTF8Unescaped.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/unescaped/Unescaped.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Exception/UnknownFilterException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Exception/UnknownFilterExceptionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Exception/UnknownHelperException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Exception/UnknownHelperExceptionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/src/Mustache/Exception/UnknownTemplateException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/Mustache/Test/Exception/UnknownTemplateExceptionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/UserTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/ViewGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ViewGeneratorCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/commands/ViewGeneratorCommandTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/whitespace/Whitespace.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/templates/alpha.ms" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/whitespace/partials/alphabet.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/templates/beta.ms" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/bin/build_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/recursive_partials/partials/child.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/child_context/child_context.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/child_context/child_context.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/comments/comments.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/comments/comments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/complex/complex.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/complex/complex.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/complex/complex.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/controller-test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/controller.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/controller.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/stubs/controller.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/stubs/scaffold/controller.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/categoria/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/fotos/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/views/create.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/views/single/create.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/bin/create_example.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/delimiters/delimiters.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/delimiters/delimiters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/dot_notation/dot_notation.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/dot_notation/dot_notation.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/double_section/double_section.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/double_section/double_section.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/categoria/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/fotos/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/views/edit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/views/single/edit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/escaped/escaped.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/escaped/escaped.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/stubs/dump/form-create-div.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/stubs/dump/form-create.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/stubs/dump/form-update.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/dump/generic-block.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/dump/generic.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/grand_parent_context/grand_parent_context.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/grand_parent_context/grand_parent_context.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/partials/partials/header.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/i18n/i18n.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/i18n/i18n.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/implicit_iterator/implicit_iterator.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/implicit_iterator/implicit_iterator.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/categoria/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/fotos/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/views/index.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/views/single/index.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/inverted_double_section/inverted_double_section.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/inverted_double_section/inverted_double_section.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/inverted_section/inverted_section.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/inverted_section/inverted_section.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/dump/list-block.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/dump/list.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/migration/migration-down-drop.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/migration/migration-down.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/migration/migration-up-create.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/migration/migration-up-pivot.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/migration/migration-up.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/migration/migration.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/stubs/scaffold/model-no-fields.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/model.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/model.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/stubs/model.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/generators/stubs/scaffold/model.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/templates/one.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/partials/partials.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/partials/partials.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/recursive_partials/recursive_partials.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/recursive_partials/recursive_partials.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/views/scaffold.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/section_iterator_objects/section_iterator_objects.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/section_iterator_objects/section_iterator_objects.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/section_magic_objects/section_magic_objects.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/section_magic_objects/section_magic_objects.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/section_objects/section_objects.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/section_objects/section_objects.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/sections/sections.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/sections/sections.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/sections_nested/sections_nested.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/sections_nested/sections_nested.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/seed.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/categoria/show.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/fotos/show.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/views/show.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/scaffold/views/single/show.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/simple/simple.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/simple/simple.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/laravel-test-helpers/tags" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/templates/two.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/unescaped/unescaped.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/unescaped/unescaped.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/utf8/utf8.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/utf8/utf8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/utf8_unescaped/utf8_unescaped.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/utf8_unescaped/utf8_unescaped.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Generators/templates/view.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/whitespace/whitespace.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mustache/mustache/test/fixtures/examples/whitespace/whitespace.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/production.sqlite" afterPath="$PROJECT_DIR$/app/database/production.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/.gitignore" afterPath="$PROJECT_DIR$/vendor/laravel/framework/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/.travis.yml" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/App.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/App.php" />
@@ -275,6 +9,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Connectors/BeanstalkdConnector.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Connectors/BeanstalkdConnector.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Jobs/BeanstalkdJob.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Jobs/BeanstalkdJob.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/BeanstalkdQueue.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/BeanstalkdQueue.php" />
@@ -291,7 +26,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Crypt.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Crypt.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Event.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Event.php" />
@@ -344,32 +78,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/Console/WorkbenchMakeCommand.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/Console/WorkbenchMakeCommand.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/WorkbenchServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/WorkbenchServiceProvider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Worker.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Worker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_ide_helpers.php" afterPath="$PROJECT_DIR$/app/_ide_helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/iso-2022-jp/one.txt" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/iso-2022-jp/one.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/phpunit.xml" afterPath="$PROJECT_DIR$/vendor/laravel/framework/phpunit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/phpunit.xml" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/phpunit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/plain.provider.stub" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/plain.provider.stub" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/provider.stub" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Workbench/stubs/provider.stub" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tdfApi.iml" afterPath="$PROJECT_DIR$/.idea/tdfApi.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tdfApi.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="app/_ide_helpers.php" />
-    <file path="/Dummy.txt" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378696886009" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378731312620" ignored="false" />
     <file path="/dummy.txt" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378556788958" ignored="false" />
     <file path="/2013_09_07_122711_create_categorias_table.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378556906470" ignored="false" />
     <file path="/2013_09_07_122727_create_fotos_table.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378559063650" ignored="false" />
@@ -380,7 +103,7 @@
     <file path="/CategoriaController.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378697963191" ignored="false" />
     <file path="/CategoriaTableSeeder.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378697324519" ignored="false" />
     <file path="/FotosController.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378697742334" ignored="false" />
-    <file path="/routes.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378699323858" ignored="false" />
+    <file path="/routes.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378700797844" ignored="false" />
     <file path="/CategoriasFotosController.php" changelist="4b61773b-a397-452d-879f-15495dac40ed" time="1378699080203" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -413,7 +136,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="435" selection-end="435" vertical-scroll-proportion="-9.375">
+            <state line="12" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="-7.5">
               <folding>
                 <element signature="e#7#392#0" expanded="true" />
               </folding>
@@ -421,10 +144,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTableSeeder.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BaseController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="28" selection-start="322" selection-end="322" vertical-scroll-proportion="-11.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/filters.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="5" selection-start="743" selection-end="743" vertical-scroll-proportion="0.275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTableSeeder.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/database/seeds/UserTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="72" selection-end="72" vertical-scroll-proportion="0.1">
+            <state line="10" column="55" selection-start="230" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -453,8 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/config/app.php" />
-        <option value="$PROJECT_DIR$/app/_ide_helpers.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/CategoriasTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2013_09_07_122727_create_fotos_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2013_09_07_140214_create_fotos_table.php" />
@@ -469,13 +208,15 @@
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2013_09_09_040010_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/app/filters.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="638" />
-    <option name="y" value="71" />
+    <option name="x" value="176" />
+    <option name="y" value="58" />
     <option name="width" value="1171" />
     <option name="height" value="772" />
   </component>
@@ -567,87 +308,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seeds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdfApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,8 +323,8 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -703,18 +364,22 @@
       <created>1378555627495</created>
       <updated>1378555627496</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="primer alpha test">
+      <created>1378699494659</created>
+      <updated>1378699494659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="638" y="71" width="1171" height="772" extended-state="0" />
+    <frame x="176" y="58" width="1171" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25066668" sideWeight="0.67027026" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2551111" sideWeight="0.67027026" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -773,7 +438,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primer alpha test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -788,6 +453,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="primer commit" />
+    <MESSAGE value="primer alpha test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -795,105 +461,54 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/fotos/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2013_09_09_034149_add_descripcion_to_fotos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/CategoriaTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="286" selection-end="286" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2013_09_07_140513_create_categoria_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2013_09_07_140214_create_fotos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="304" selection-end="476" vertical-scroll-proportion="0.35008666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Foto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="45" selection-start="186" selection-end="186" vertical-scroll-proportion="0.225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2013_09_09_034149_add_descripcion_to_fotos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/FotosTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="79" selection-start="1365" selection-end="1365" vertical-scroll-proportion="-21.25">
-          <folding />
-        </state>
+        <state line="34" column="79" selection-start="1365" selection-end="1365" vertical-scroll-proportion="-21.25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/CategoriaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="50" selection-start="33" selection-end="57" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
+        <state line="2" column="50" selection-start="33" selection-end="57" vertical-scroll-proportion="-1.25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/FotosController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="345" selection-end="345" vertical-scroll-proportion="-13.75">
-          <folding />
-        </state>
+        <state line="22" column="10" selection-start="345" selection-end="345" vertical-scroll-proportion="-13.75" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Categoria.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.33795494">
-          <folding />
-        </state>
+        <state line="13" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.33795494" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/CategoriasFotosController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="42" selection-start="137" selection-end="137" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
+        <state line="5" column="42" selection-start="137" selection-end="137" vertical-scroll-proportion="-3.125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="352" selection-end="352" vertical-scroll-proportion="0.29833335">
-          <folding />
-        </state>
+        <state line="17" column="17" selection-start="352" selection-end="352" vertical-scroll-proportion="0.29833335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2013_09_09_040010_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="463" selection-end="463" vertical-scroll-proportion="0.575">
-          <folding />
-        </state>
+        <state line="24" column="30" selection-start="463" selection-end="463" vertical-scroll-proportion="0.575" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="269" selection-end="269" vertical-scroll-proportion="0.475">
-          <folding />
-        </state>
+        <state line="19" column="1" selection-start="269" selection-end="269" vertical-scroll-proportion="0.475" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="435" selection-end="435" vertical-scroll-proportion="-9.375">
+        <state line="12" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="-7.5">
           <folding>
             <element signature="e#7#392#0" expanded="true" />
           </folding>
@@ -902,7 +517,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/UserTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="72" selection-end="72" vertical-scroll-proportion="0.1">
+        <state line="10" column="55" selection-start="230" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="28" selection-start="322" selection-end="322" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/filters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="743" selection-end="743" vertical-scroll-proportion="0.275">
           <folding />
         </state>
       </provider>

@@ -26,14 +26,14 @@ class FotosTableSeeder extends Seeder {
                 'nombre' => "Foto 5",
                 'imagePath' => "http://www.centralinfo.com.ar/fotosTdf/5.jpg",
                 'thumbPath' => "http://www.centralinfo.com.ar/fotosTdf/icono/5.jpg",
-                'descripcion' => "@mauriceMoss",
+                'descripcion' => "@pepeCarioca",
                 'categoria_id' => 2
             ),
             array(
                 'nombre' => "Foto 6",
                 'imagePath' => "http://www.centralinfo.com.ar/fotosTdf/6.jpg",
                 'thumbPath' => "http://www.centralinfo.com.ar/fotosTdf/icono/6.jpg",
-                'descripcion' => "@mauriceMoss",
+                'descripcion' => "@tdftest",
                 'categoria_id' => 2
             )
 		);

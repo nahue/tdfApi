@@ -41,7 +41,8 @@ class FotosController extends BaseController {
 	 */
 	public function show($id)
 	{
-		//
+		$foto = Foto::find($id);
+        return Response::json($foto);
 	}
 
 	/**

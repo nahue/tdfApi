@@ -6,3 +6,10 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+	SetEnvIf Origin "^http(s)?://(.+\.)?(localhost|centralinfo\.com.ar)$" origin_is=$0
+	Header always set Access-Control-Allow-Origin %{origin_is}e env=origin_is
+
+<ifmodule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
